@@ -22,8 +22,15 @@ These features are jointly encoded and used to predict key broadband parameters 
 
 ## 📁 Project Structure
 
+```plaintext
+LFW2BBP/
+├── LF_sim_data/                      # Low-frequency simulation data for 2016 Kumamoto
+├── models/                           # Trained model weights
+├── evaluate_kumamoto_sim_05Hz.ipynb  # Evaluation notebook for Kumamoto earthquake
+└── README.md                         # Project documentation
+```
 
-
+---
 Install dependencies:
 ```bash
 pip install -r requirements.txt
