@@ -1,4 +1,4 @@
-# LFW2BBP: Learning-Based Mapping from Low-Frequency Simulation to Broadband Parameters
+# LFW2BBP: Broadband Ground-Motion Parameters Estimation Using Physics-Based Simulated Low-frequency Waveforms and Deep Learning
 
 Accurate prediction of broadband ground motion parameters is crucial for earthquake disaster prevention and mitigation. However, physics-based ground motion simulations are limited by the lack of high-wavenumber components in source rupture models and velocity structures, making them reliable only for low-frequency ground motions (typically <1 Hz).
 
@@ -31,6 +31,6 @@ LFW2BBP/
 ```
 
 ---
-Install dependencies:
+## Install dependencies:
 ```bash
 pip install -r requirements.txt
