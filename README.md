@@ -12,12 +12,12 @@ To address this limitation, we propose **LFW2BBP**, a deep learning framework de
 - **Time-frequency signals**
 - **Spectral acceleration**
 
-These features are jointly encoded and used to predict key broadband parameters such as PGA (Peak Ground Acceleration), PGV (Peak Ground Velocity), SA at multiple periods, and duration metrics.
+These features are jointly encoded and used to predict key broadband parameters such as PGA (Peak Ground Acceleration), PGV (Peak Ground Velocity), SA (Spectral Acceleration) at multiple periods.
 
 ## 🧪 Key Features
 
-- **Physics-aware**: Uses physically simulated low-frequency data as input.
-- **Multi-domain learning**: Combines waveform, spectral, and acceleration features.
+- **Physics-based**: Uses physics-based simulated low-frequency data as input.
+- **Multi-domain inputs**: Combines waveform, spectral, and spectral acceleration features.
 - **Validated**: Tested against observed data from the 2016 $M_w$ 7.0 Kumamoto earthquake.
 
 ## 📁 Project Structure
